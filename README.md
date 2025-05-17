@@ -1,3 +1,4 @@
+![Spring_Application_context](https://github.com/user-attachments/assets/d7d3724a-ecbf-463d-bacb-3ce39a6110bb)
 # Spring Boot AI Project
 
 This is a simple Spring Boot AI project with integrated services for chat, image generation, and recipe generation using OpenAI APIs. The project includes both backend services built with Spring Boot and a frontend built with React.
