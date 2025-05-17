@@ -56,7 +56,7 @@ public class GenAiController {
 //            e.printStackTrace(); // Log the exception for debugging
 //        }
 //    }
-    @GetMapping("generate-image")
+    @GetMapping("generate-image")//this is generate-image endpoint
     public List<String> generateImagesOptions(HttpServletResponse response, @RequestParam String prompt, @RequestParam(defaultValue = "hd") String quality, @RequestParam(defaultValue = "1")int n, @RequestParam(defaultValue = "1024")int height, @RequestParam(defaultValue = "1024")int width) throws IOException {
         ImageResponse imageResponse = imageService.generateImage(prompt, quality, n, height, width);
 
