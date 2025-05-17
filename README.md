@@ -1,4 +1,4 @@
-![Spring_Application_context](https://github.com/user-attachments/assets/d7d3724a-ecbf-463d-bacb-3ce39a6110bb)
+
 # Spring Boot AI Project
 
 This is a simple Spring Boot AI project with integrated services for chat, image generation, and recipe generation using OpenAI APIs. The project includes both backend services built with Spring Boot and a frontend built with React.
@@ -17,6 +17,13 @@ This project demonstrates how to use various OpenAI APIs to provide different se
 - **Image Generation**: Allows users to input prompts and receive AI-generated images.
 - **Recipe Generation**: Users can input ingredients and get recipes in return.
 - **React-based Frontend**: A simple interface for interacting with the backend services.
+
+### Context Dependency Diagram:
+
+![Spring_Application_context](https://github.com/user-attachments/assets/d7d3724a-ecbf-463d-bacb-3ce39a6110bb)
+
+### Bean Dependency Diagram:
+![Bean_dependency_diagram](https://github.com/user-attachments/assets/fa872ec3-b725-4c88-9c78-a671dfcf8771)
 
 ## Technologies Used
 
